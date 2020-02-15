@@ -500,6 +500,15 @@
 	attack_verb = list("clawed", "hissed", "tail slapped")
 	squeak_override = list('sound/weapons/slash.ogg' = 1)
 
+/obj/item/toy/plush/scpplushie
+	name = "scp-173 plushie"
+	desc = "An adorable stuffed toy that resembles SCP-173."
+	icon_state = "plushie_scp"
+	item_state = "plushie_scp"
+	force = 100
+	attack_verb = list("snapped", "cracked")
+	squeak_override = list('sound/weapons/slash.ogg' = 1)
+
 /obj/item/toy/plush/snakeplushie
 	name = "snake plushie"
 	desc = "An adorable stuffed toy that resembles a snake. Not to be mistaken for the real thing."
