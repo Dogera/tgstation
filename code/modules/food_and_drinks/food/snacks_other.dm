@@ -30,6 +30,16 @@
 	foodtype = FRUIT
 	juice_results = list(/datum/reagent/consumable/watermelonjuice = 5)
 
+/obj/item/reagent_containers/food/snacks/kiwi
+	name = "kiwifruit"
+	desc = "A nicely cut kiwi."
+	icon_state = "kiwi"
+	list_reagents = list(/datum/reagent/consumable/nutriment = 4)
+	bitesize = 2
+	filling_color = "#2DA031"
+	tastes = list("fresh kiwi" = 1)
+	foodtype = FRUIT
+
 /obj/item/reagent_containers/food/snacks/candy_corn
 	name = "candy corn"
 	desc = "It's a handful of candy corn. Can be stored in a detective's hat."
